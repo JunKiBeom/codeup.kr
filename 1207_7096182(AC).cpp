@@ -1,0 +1,25 @@
+﻿#include <iostream>
+using namespace std;
+int main()
+{
+    int yut[5]={0};
+    int cnt=0;
+
+    for(int i=0;i<4;i++)
+        cin>>yut[i];
+    for(int i=0;i<4;i++)
+        if (yut[i]==1)
+            cnt++;
+
+    if (cnt==1)
+        cout<<"도";
+    else if (cnt==2)
+        cout<<"개";
+    else if (cnt==3)
+        cout<<"걸";
+    else if (cnt==4)
+        cout<<"윷";
+    else
+        cout<<"모";
+
+}
