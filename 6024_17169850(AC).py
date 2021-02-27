@@ -1,0 +1,1 @@
+﻿print("".join(input().split(" ")))
